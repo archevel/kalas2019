@@ -7,4 +7,6 @@ Första ledtråden finns [här](http://maps.google.com/maps?q=57.7141994,11.9025116
 <script src="/scripts.js">
 </script>
  
-<div id="text"></div>
+<div id="text">
+no script ran...
+</div>
