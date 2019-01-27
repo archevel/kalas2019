@@ -3,7 +3,7 @@ $().ready(function() {
     $("#sub1").click(function() {
         if($("#a1")[0].value === "stone") {
             alert("Rätt");
-            $("link1").show();
+            $("#link1").show();
         } else {
             alert("Fel! Försök igen :)");
         }
