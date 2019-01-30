@@ -1,11 +1,14 @@
 $().ready(function() {
-    $("#link1").hide();
-    $("#sub1").click(function() {
-        if($("#a1")[0].value === "stone") {
-            alert("Rätt");
-            $("#link1").show();
+
+    $("#sub").click(function() {
+        var actualAnswer = $("#a").value().toLowerCase();
+        var acceptedAnswers = $("#a").attr('expect').toLowerCase().split("|");
+        
+        if(acceptedAnswers.indexOf(actualAnswer) >= 0) {
+            alert("Korrekt!");
+            window.location.href = $("#link").attr('href');
         } else {
-            alert("Fel! Försök igen :)");
+            alert("Fel! :)");
         }
     });
 });
