@@ -1,10 +1,12 @@
 # Sebastians Kalas 2019
-Forsta ledtraden finns [har](http://maps.google.com/maps?q=57.7141994,11.9025116) 
+Första [utmaningen hittar ni här](http://maps.google.com/maps?q=57.7141994,11.9025116) 
 
-## Vad ar svaret pa forsta fragan?
+## Ledtråd
+Baklänges
 
-<div id="q1">
-    <input id="a1" type="text" />
-    <button id="sub1">Kontrollera svar</button>
-    <a id="link1" href="./q2">Till nasta!</a>
+## Vad är lösningen?
+<div id="q">
+    <input id="a" data-expect="blaze,blace,blase" type="text" />
+    <button id="sub">Kontrollera svar</button>
+    <a id="link" style="display: none;" href="https://archevel.github.io/kalas2019/q2">Till nasta!</a>
 </div>
