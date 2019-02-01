@@ -6,7 +6,8 @@ Baklänges
 
 ## Vad är lösningen?
 <div id="q">
-    <input style="font-size: 2em" id="a" data-expect="blaze,blace,blase" type="text" />
-    <button style="font-size: 2em" id="sub">Kontrollera svar</button>
+    <input style="font-size: 1.5em" id="a" data-expect="blaze,blace,blase" type="text" />
+    <br>
+    <button style="font-size: 1.5em" id="sub">Kontrollera svar</button>
     <a id="link" style="display: none;" href="https://archevel.github.io/kalas2019/q2">Till nasta!</a>
 </div>
